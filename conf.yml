@@ -1,0 +1,36 @@
+"menuA":
+  menuA1:
+    poweroffPC1:
+      cmdP: "poweroffPC0000"
+    poweroffPC2:
+      cmdP: "poweroff"
+    poweroffPC3:
+      cmdP: "poweroff"
+    poweroffPC4:
+      cmdP: "poweroff"
+    poweroffPC5:
+      cmdP: "poweroff"
+    poweroffPC6:
+      cmdP: "poweroff"
+    poweroffPC7:
+      cmdP: "poweroff"
+    poweroffPC8:
+      cmdP: "poweroff"
+    poweroffPC0:
+      cmdP: "poweroff"
+    poweroffPC99:
+      cmdP: "poweroff"
+    poweroffPC999:
+      cmdP: "poweroff"
+    poweroffPC0000:
+      cmdP: "poweroff"
+  menuA2:
+    menuA2_1:
+      hello:
+        cmdP: "echo hello"
+menuB:
+  link1:
+    cmdP: "xdg-open https://google.com"
+menuC:
+  terminator: 
+    cmdP: "exec terminator &"
