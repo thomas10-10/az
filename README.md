@@ -152,6 +152,8 @@ $ t
 ```
 A configuration must be in `~/.config/starterTree/config.yml`
 
+you need press key space or tab to use autocomplete 
+
 There is a sample configuration file in git depot `exampleConfig/config.yml`
     
 Otherwise you can specify the path of the config file as an argument:
@@ -163,7 +165,8 @@ Otherwise you can specify the path of the config file as an argument:
 or to manage several different configurations:
 ` alias toto1="t /other/myconfig.yml"`
 ` alias toto2="t /other/anOtherconfig.yml"`
- 
+or run starterTree via bind:
+`bind -x '"\C-i":t'`
 
 
 
