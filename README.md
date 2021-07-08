@@ -166,7 +166,7 @@ or to manage several different configurations:
 ` alias toto1="t /other/myconfig.yml"`
 ` alias toto2="t /other/anOtherconfig.yml"`
 or run starterTree via bind:
-`bind -x '"\C-i":t'`
+`bind -x '"\C-p":t'`
 
 
 
